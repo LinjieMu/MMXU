@@ -1,5 +1,14 @@
-# MMXU: A Multi-Modal and Multi-X-ray Understanding Dataset for Disease Progression
-## case study
-The case.pdf presents more examples.
-Among them, Case 1, Case 2, and Case 3 demonstrate three "hard" cases containing confounding options, where the red options represent the confounding options (i.e., options with the same variation category as the correct one). For Case 3, the two similar options have worsening outcomes in different directions; for Case 2, the two similar options show improvements to different extents.
-Case 3 and Case 4 respectively show situations where the MAG does not work, meaning that the original severity of the disease involved in the problem cannot be reflected in the existing reports. Although the previous reports contain descriptions of related areas, since they do not address the question posed, introducing MAG after the model’s MMXU-dev fine-tuning does not help and can even mislead the model to give incorrect answers.
+# MMXU benchmark
+**MMXU** (Multimodal and MultiX-ray Understanding) is a novel dataset for MedVQA that focuses on identifying changes in specific regions between two patient visits. Unlike previous datasets that primarily address single-image questions, MMXU enables multi-image questions, incorporating both current and historical patient data. 
+
+[![Paper](https://img.shields.io/badge/paper-available-brightgreen)](https://arxiv.org/pdf/2502.11651)
+
+## News
+
+- (05/16/2025) Our [paper](https://arxiv.org/pdf/2502.11651) has been accepted by ACL 2025 Findings!
+- (02/22/2025) The MMXU-test benchmark has been released, containing 3,000 multiple-choice questions on disease progression in chest X‑rays!
+ 
+## Table of Contents
+- [Introduction](#introduction)
+- [Usage](#usage)
+- [Citation](#citation)
