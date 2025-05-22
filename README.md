@@ -1,17 +1,3 @@
----
-language: 
-- en
-pretty_name: "MMXU"
-tags:
-- Medical VQA
-- Chest X-ray
-- Disease Progression
-- Multi-image question
-task_categories:
-- visual-question-answering
-- multiple-choice
----
-
 # MMXU benchmark
 **MMXU** (Multimodal and MultiX-ray Understanding) is a novel dataset for MedVQA that focuses on identifying changes in specific regions between two patient visits. Unlike previous datasets that primarily address single-image questions, MMXU enables multi-image questions, incorporating both current and historical patient data. 
 
