@@ -1,7 +1,7 @@
 # MMXU benchmark
 **MMXU** (Multimodal and MultiX-ray Understanding) is a novel dataset for MedVQA that focuses on identifying changes in specific regions between two patient visits. Unlike previous datasets that primarily address single-image questions, MMXU enables multi-image questions, incorporating both current and historical patient data. 
 
-[![Paper](https://img.shields.io/badge/paper-available-brightgreen)](https://arxiv.org/pdf/2502.11651) [![huggingface](https://img.shields.io/badge/huggingface-available-yellow)](https://huggingface.co/datasets/LinjieMu/MMXU) [![github](https://img.shields.io/badge/gitub-available-blue)](https://github.com/LinjieMu/MMXU)
+[![Paper](https://img.shields.io/badge/paper-available-brightgreen)](https://arxiv.org/pdf/2502.11651) [![huggingface](https://img.shields.io/badge/huggingface-available-yellow)](https://huggingface.co/datasets/LinjieMu/MMXU) [![github](https://img.shields.io/badge/github-available-blue)](https://github.com/LinjieMu/MMXU)
 
 ## News
 
