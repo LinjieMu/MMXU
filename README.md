@@ -13,6 +13,7 @@
   - [News](#news)
   - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
+- [Usage](#usage)
 - [Citation](#citation)
 
 # Introduction
@@ -28,7 +29,22 @@ The figure outlines the pipeline for constructing MMXU. The process begins with 
 3. QA Pair Generation
 4. Post‑Processing
 
+# Usage
+* **File description**
 
+  * `MMXU-test.jsonl`: the MMXU test split, containing 3 k examples.
+  * `MMXU-dev.jsonl`: the MMXU development/training split, containing 118 k examples (to be released soon).
+
+* **Images**
+
+  * Please apply for and download the MIMIC‑CXR‑JPG dataset from [https://physionet.org/content/mimic-cxr-jpg/2.1.0/](https://physionet.org/content/mimic-cxr-jpg/2.1.0/).
+  * After downloading, either create a symbolic link from this project’s `files` directory to the `files` directory of the MIMIC‑CXR‑JPG dataset, or adjust the image paths accordingly.
+
+
+* **Report information**
+
+  * Our dataset is built on the MIMIC‑CXR‑JPG dataset, which is a restricted‑access resource. This means we cannot release the associated report content elsewhere.
+  * We will make the data containing fine‑grained report information available on [https://physionet.org](https://physionet.org) as soon as possible.
 
 
 # Citation
