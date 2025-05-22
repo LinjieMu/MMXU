@@ -14,6 +14,7 @@
   - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
 - [Usage](#usage)
+- [Case Example](#case-example)
 - [Citation](#citation)
 
 # Introduction
@@ -46,6 +47,9 @@ The figure outlines the pipeline for constructing MMXU. The process begins with 
   * Our dataset is built on the MIMIC‑CXR‑JPG dataset, which is a restricted‑access resource. This means we cannot release the associated report content elsewhere.
   * We will make the data containing fine‑grained report information available on [https://physionet.org](https://physionet.org) as soon as possible.
 
+# Case Example
+
+![MMXU example](imgs/case.png)
 
 # Citation
 If you use the `MMXU dataset` in your research, please cite the following paper:
