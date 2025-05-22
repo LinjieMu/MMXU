@@ -19,7 +19,7 @@
 
 In this paper, we introduce MMXU (Multimodal and MultiX-ray Understanding), leveraging the rich resources of patient electronic medical records (EMRs) from the MIMIC-CXR dataset. Unlike previous works, which focus solely on the current image or are restricted to simple questions, this benchmark is specifically designed to inquire about differences in specific regions between a patient’s two visits. MMXU contains two splits: *test* and *dev*. `MMXU-test` consists of 3,000 entries from 1,201 patients and 2,469 studies, while `MMXU-dev` contains 118K QA pairs involving 114K images. 
 
-![MMXU pipeline](imgs/framework.pdf)
+![MMXU pipeline](imgs/framework.png)
 
 The figure outlines the pipeline for constructing MMXU. The process begins with the Chest ImaGenome dataset. The entire method comprises four distinct phases:
 
