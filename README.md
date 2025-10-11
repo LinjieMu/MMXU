@@ -7,7 +7,7 @@
 
 - (05/16/2025) Our [paper](https://arxiv.org/pdf/2502.11651) has been accepted by ACL 2025 Findings!
 - (02/22/2025) The MMXU-test benchmark has been released, containing 3,000 multiple-choice questions on disease progression in chest X‑rays!
- 
+
 ## Table of Contents
 - [MMXU benchmark](#mmxu-benchmark)
   - [News](#news)
@@ -35,6 +35,25 @@ The figure outlines the pipeline for constructing MMXU. The process begins with 
 
   * `MMXU-test.jsonl`: the MMXU test split, containing 3 k examples.
   * `MMXU-dev.jsonl`: the MMXU development/training split, containing 118 k examples (to be released soon).
+
+* **Data Description**
+
+  Each entry in the `MMXU-dev.jsonl` files contains the following fields:
+
+  - `id`: A unique numerical identifier for each data entry.
+  - `content_type`: The category of the question, often indicating the type of change being assessed.
+  - `related_region_name`: The specific anatomical area of interest in the medical image.
+  - `question`: The specific question that needs to be answered by comparing the current and prior medical images/reports.
+  - `options`: A dictionary of possible multiple-choice answers to the question.
+  - `answer`: The key corresponding to the correct option.
+  - `explanation`: A text-based justification for why the answer is correct, often referencing the medical reports.
+  - `cur_image_path`: The file path to the most recent medical image.
+  - `cur_report`: The complete radiologist's report corresponding to the `cur_image_path`.
+  - `cur_region_report`: A specific snippet from the full report that describes the findings in the `related_region_name`.
+  - `cur_image_bboxs`: A dictionary containing the bounding box coordinates (`[x_min, y_min, x_max, y_max]`) for anatomical regions in the current image.
+  - `prior_image_path`: A list containing file paths to one or more previous images used for comparison.
+  - `prior_report`: The complete radiologist's report for the prior image(s).
+  - `prior_image_bboxs`: Bounding box coordinates for regions in the prior image. **It can be empty if the region was not annotated previously.**
 
 * **Images**
 
