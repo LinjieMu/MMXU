@@ -34,7 +34,7 @@ The figure outlines the pipeline for constructing MMXU. The process begins with 
 * **File description**
 
   * `MMXU-test.jsonl`: the MMXU test split, containing 3 k examples.
-  * `MMXU-dev.jsonl`: the MMXU development/training split, containing 118 k examples (to be released soon).
+  * `MMXU-dev.jsonl`: the MMXU development/training split, containing 118 k examples. **Due to PhysioNet restrictions, we cannot release the dev data publicly. If you would like to contact us further regarding this, please feel free to email me at linjiemu@sjtu.edu.cn.**
 
 * **Data Description**
 
@@ -64,7 +64,6 @@ The figure outlines the pipeline for constructing MMXU. The process begins with 
 * **Report information**
 
   * Our dataset is built on the MIMIC‑CXR‑JPG dataset, which is a restricted‑access resource. This means we cannot release the associated report content elsewhere.
-  * We will make the data containing fine‑grained report information available on [https://physionet.org](https://physionet.org) as soon as possible.
 
 # Case Example
 
@@ -80,4 +79,3 @@ If you use the `MMXU dataset` in your research, please cite the following paper:
   journal={arXiv preprint arXiv:2502.11651},
   year={2025}
 }
-```
